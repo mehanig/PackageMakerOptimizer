@@ -20,6 +20,8 @@ After if, generated content might look buggy, but that's OK.
 2. Find content name (can be found using `Show Package Content` on `YourProject`.pmdoc and looking at files like `01content-contents.xml` (here content=content), if there will be files like `01data-contents.xml` then content=data)
 3. run with python3 `python3 pmoptimizer.py -p YourProject -c content`
 
+### Result
+Installer size shrinked by N times (N = amount of choices in installer) if content is same.
 
 Example of optimized project:
 ![optpm](https://cloud.githubusercontent.com/assets/5033274/24830315/62d240bc-1c8c-11e7-821a-2725cd1bceed.gif)
